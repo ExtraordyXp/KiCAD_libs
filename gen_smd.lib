@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# gen_smd
+#
+DEF gen_smd G 0 40 Y Y 1 F N
+F0 "G" 50 350 60 H V C CNN
+F1 "gen_smd" 400 350 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 0 300 500 -100 0 1 0 N
+X OE 1 -100 0 100 R 50 50 1 1 I
+X GND 2 600 0 100 L 50 50 1 1 I
+X OUT 3 600 200 100 L 50 50 1 1 I
+X VCC 4 -100 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

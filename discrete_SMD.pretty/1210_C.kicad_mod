@@ -1,0 +1,15 @@
+(module 1210_C (layer F.Cu) (tedit 555B4EEC)
+  (fp_text reference REF** (at 0.4 -1.8 180) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_text value VAL** (at 0.2 1.7) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -0.25 0) (size 1.6 2.5) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 3.35 0) (size 1.6 2.5) (layers F.Cu F.Paste F.Mask))
+  (model discrete_SMD.pretty/3D/1210_C.wrl
+    (at (xyz -0.002 0 0))
+    (scale (xyz 0.393701 0.393701 0.393701))
+    (rotate (xyz 0 0 0))
+  )
+)
