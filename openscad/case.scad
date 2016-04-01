@@ -55,7 +55,7 @@ module case(_L,_W,_H,_ph,_pt,_atl,_atr,_atu,_atd,_abl,_abr,_abu,_abd, _n_x, _n_y
                 [_L - _dbr,_W - _dbu, 0],
                 [ 0 + _dbl,_W - _dbu, 0]
             ],
-            triangles = [
+            faces = [
                 // Top
                 [ 0, 3, 2, 1],
                 // Top sides

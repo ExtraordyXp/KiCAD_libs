@@ -23,6 +23,3 @@ module pin(_L,_l,_H,_th,_a,_W)
 				 [_l-_d1,_th],
 				 [0,_th]]);
 }
-
-// Example of usage
-pin(2,1,1,0.2,115,0.5);

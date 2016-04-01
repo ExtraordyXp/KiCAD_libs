@@ -21,7 +21,7 @@ notch_y=0.8;        // Notch offset Y
 
 side1_pins = 2;     // Number of pins on side 1
 side2_pins = 0;     // Number of pins on side 1
-side3_pins = 1;     // Number of pins on side 1
+side3_pins = 3;     // Number of pins on side 1
 side4_pins = 0;     // Number of pins on side 1
 pin_distance1 = 1.9;   // Number of pins on side 1
 pin_distance2 = 0;   // Number of pins on side 2
