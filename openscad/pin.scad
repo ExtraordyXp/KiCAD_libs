@@ -23,3 +23,17 @@ module pin(_L,_l,_H,_th,_a,_W)
 				 [_l-_d1,_th],
 				 [0,_th]]);
 }
+
+module pin_th(_th, _L, _l,_W,_w)
+{
+    // Extrude the following polygon
+	linear_extrude(height = _th, center = true, convexity = 10, twist = 0)
+        polygon([[_w/2,0],
+                 [_w/2,_l],
+				 [_W/2,_l+(_W-_w)/2],
+				 [_W/2,_l+_L],
+				 [-_W/2,_l+_L],
+				 [-_W/2,_l+(_W-_w)/2],
+				 [-_w/2,_l],
+				 [-_w/2,0]]);
+}
